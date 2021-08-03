@@ -38,3 +38,4 @@ Functionality was also added to Dockerfile and docker compose yml file that brid
 
 In order to build the containers and run this application on your own, you can use the docker compose up command to build the appropriate containers. After everything has been built, simply go to localhost:5000 to input controls and get times out, submit to database using the submit button, then enter whichever service you want expose (e.g. localhost:5000/listAll). If you want the see the consumer program, go to localhost:5001.
 
+Docker dowload: https://www.docker.com/products/docker-desktop
