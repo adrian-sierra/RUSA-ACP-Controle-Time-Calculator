@@ -36,5 +36,5 @@ Last functionality implemented was the consumer program which uses the service e
 
 Functionality was also added to Dockerfile and docker compose yml file that bridged together the containers of the brevet functionality, database functionality, and website that uses the times that were exposed.
 
-In order to build the containers and run this application on your own, you need to be in the DockerMongo directory, which is inside the DockerRESTApi directory, and once you are in the DockerMongo directory, you can use the docker compose up command to build the appropriate containes and to use the application for yourself. After everything has been built, simply go to localhost:5000 to input controls and get times out, submit to database using the submit button, then enter whichever service you want expose (e.g. localhost:5000/listAll). If you want the see the consumer program, go to localhost:5001.
+In order to build the containers and run this application on your own, you can use the docker compose up command to build the appropriate containers. After everything has been built, simply go to localhost:5000 to input controls and get times out, submit to database using the submit button, then enter whichever service you want expose (e.g. localhost:5000/listAll). If you want the see the consumer program, go to localhost:5001.
 
